@@ -1,0 +1,119 @@
+Copy code
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+}
+p{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main {
+    background-image: url("../assets/img/background6.jpg") ;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin : 0;
+    align-items: center;
+}
+
+header {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top : 2%;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    color: black
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    color: white;
+}
+
+.options a {
+    font-size: 1rem;
+    color: white; 
+    text-decoration: none;
+}
+
+.options a:hover{
+   text-decoration: underline;
+}
+
+.infomations{
+    min-height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.speakers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.person-required, .time-info{
+    height: 100%;
+    width: 47%;
+}
+
+.collaborators{
+    width: 96%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer {
+    height: 20%; 
+    border-top: 0.3px solid rgb(103, 99, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer footer {
+    width: 100%;
+    text-align: center;
+}
+
+
+.scroll-arrow {
+    position: fixed;
+    bottom: 2%;
+    right: 0%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    width: 5%; 
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

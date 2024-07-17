@@ -7,10 +7,10 @@ html, body{
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: "PT Sans", sans-serif;
-    /* font-weight: 700; */
+    font-weight: 400;
     font-style: normal;
 }
-P{
+p{
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -110,9 +110,7 @@ footer{
 .subsec, .explanation{
     height: 100%;
 }
-.explanation{
-   /* background-color: rgb(220, 181, 108); */
-}
+
 
 .text-explanation{
     display: flex;
