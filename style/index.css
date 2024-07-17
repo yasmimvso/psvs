@@ -1,0 +1,120 @@
+Copy code
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main {
+    background-image: url("../assets/img/background6.jpg") ;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin : 0;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.main-info{
+    width: 100%;
+    height: 60%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 12%;
+    /*Mudar cor quando for scroll baixo*/
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    color: white;
+}
+
+.options a {
+    font-size: 1rem;
+    color: white; 
+    text-decoration: none;
+}
+
+.options a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    /* display: flex; */
+    margin: auto;
+    height: 5%;
+    width: 100%;
+    text-align:right;
+    margin-bottom: 0;
+}
+
+.scroll-arrow {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    width: 5%; 
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-section{
+    min-height: 80%;
+    align-items: center;
+}
+
+.subsec, .explanation{
+    height: 100%;
+}
+.explanation{
+   background-color: rgb(220, 181, 108);
+}
+
+.text-explanation{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+.text-explanation p{
+    height: 100%;
+    width: 45%;
+    font-style: italic;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+
