@@ -7,10 +7,10 @@ html, body{
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: "PT Sans", sans-serif;
-    /* font-weight: 700; */
+    font-weight: 400;
     font-style: normal;
 }
-P{
+p{
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -46,9 +46,9 @@ header {
     align-items: center;
     justify-content: start;
 
-    background-color: rgba(0, 0, 0, 0.4);
-    background-color: white;
-    color: black
+    /* background-color: rgba(0, 0, 0, 0.4);
+    background-color: white; */
+    color: white;
 }
 
 
@@ -66,7 +66,7 @@ header {
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: black
+    /* color: black */
 }
 
 .options a:hover{
@@ -110,9 +110,7 @@ footer{
 .subsec, .explanation{
     height: 100%;
 }
-.explanation{
-   /* background-color: rgb(220, 181, 108); */
-}
+
 
 .text-explanation{
     display: flex;
@@ -176,8 +174,5 @@ footer{
 
 .footer{
     height: 30%; 
-    border-top:  1% solid black;
+    border-top: 1px solid #ccc;
 }
-
-
-
