@@ -1,0 +1,95 @@
+.time-info {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 1% solid;
+}
+
+.description-program {
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar {
+    height: 20%;
+    margin-top: 2%;
+    /* background-color: burlywood; */
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.days li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.days li:hover {
+    background-color: #ddd;
+}
+
+.general {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.day-content {
+    display: none;
+}
+
+.day-content h3 {
+    margin-top: 0;
+}
+
+.tamplate-speaker{
+    margin-left: 5%;
+}
+
+.speakers{
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-desc{
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-desc p{
+    width: 40%;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.bibliography{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+.bibliography img{
+    width: 50%;
+    height: 80%;
+    margin-top: 2%;
+}
+.bibliography p{
+    font-size: 0.7rem;
+    width: 40%;
+    font-style: italic;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style/participate.css">
+    <link rel="stylesheet" href="../style/program.css">
+    <title>psvs</title>
+</head>
+
+<body>
+    <main class="main">
+        <header>
+            <div class="options">
+                <a href="../index.html">Home</a>
+                <a href="pages/participate.html">Participate</a>
+                <a href="pages/program.html">Program</a>
+                <a href="pages/organizing.html">Organization</a>
+            </div>
+        </header>
+    </main>
+    <div class="content">
+        <div class="time-info">
+            <h2>PSVS 24: Pernambuco Seminar on Visualization and Sustainability</h2>
+            <span><i class="fa fa-calendar"></i>October 21, 2024 - October 25, 2024</span>
+            <span><i class="fa fa-map"></i>Recife, Brazil</span>
+        </div>
+
+        <div class="description-program">
+            <div class="calendar">
+                <ul class="days">
+                    <li onclick="showDay('monday')">Monday, Oct 21</li>
+                    <li onclick="showDay('tuesday')">Tuesday, Oct 22</li>
+                    <li onclick="showDay('wednesday')">Wednesday, Oct 23</li>
+                    <li onclick="showDay('thursday')">Thursday, Oct 24</li>
+                    <li onclick="showDay('friday')">Friday, Oct 25</li>
+                </ul>
+            </div>
+            <div class="general">
+                <div id="monday" class="day-content">
+                    <h3>Monday, Oct 21</h3>
+                    <p>8:00 - 8:30 Registration</p>
+                    <p>9:00 - 9:30 Breakfast</p>
+                    <p>10:00 - 10:30 Opening Session</p>
+                    <p>11:00 - 11:30 Keynote</p>
+                    <p>12:00 - 13:00 Lunch</p>
+                    <p>14:00 - 15:00 Keynote</p>
+                    <p>15:30 - 16:00 Coffee-break</p>
+                    <p>16:30 - 17:00 Keynote</p>
+                    <p>17:30 Lighting talks</p>
+                </div>
+                <div id="tuesday" class="day-content" style="display:none;">
+                    <h3>Tuesday, Oct 22</h3>
+                    <p>i need implements</p>
+                </div>
+                <div id="wednesday" class="day-content" style="display:none;">
+                    <h3>Wednesday, Oct 23</h3>
+                    <p>i need implements</p>
+                </div>
+                <div id="thursday" class="day-content" style="display:none;">
+                    <h3>Thursday, Oct 24</h3>
+                    <p>i need implements</p>
+                </div>
+                <div id="friday" class="day-content" style="display:none;">
+                    <h3>Friday, Oct 25</h3>
+                    <p>i need implements</p>
+                </div>
+            </div>
+        </div>
+        <div class="speakers">
+            <h2>Confirmed Speakers</h2>
+            <div class="tamplate-speaker">
+                <h3>Frédérique Krupa</h3>
+                <h4>Tech's Diversity, Sustainability and Inclusion Gap</h4>
+                <div class="personal-desc">
+                    <p>In a rapidly evolving digital age, the intersections of technology, sustainability, and social
+                        equity
+                        are becoming increasingly significant. This keynote address will delve into the critical issues
+                        facing the tech industry today, focusing on the disparities that persist in diversity,
+                        sustainability practices, and inclusion efforts. We will explore the current state of diversity
+                        within the tech sector, highlighting the challenges and opportunities for creating a more
+                        inclusive
+                        workforce. The talk will also address the environmental impacts of tech advancements, generative
+                        AI
+                        in particular, and the urgent need for sustainable practices in an industry known for its rapid
+                        consumption of resources. Through compelling data visualizations and real-world examples, this
+                        keynote will provide a comprehensive understanding of how integrating diversity, sustainability,
+                        and
+                        inclusion can drive not only ethical advancements but also lead to more robust and resilient
+                        technological innovations.
+                    </p>
+                    <div class="bibliography">
+                        <img src="../assets/img/frederique_KRUPA.jpg"
+                            alt="Woman with short brown hair. Dressed in a black t-shirt">
+                        <p>Dr. Frédérique Krupa is director of the Digital Design Lab at l’école de design Nantes
+                            Atlantique and a UX designer and research methodology specialist. In parallel to her design
+                            career at Virtools, Dassault Systemes and Simple Is Beautiful, she has been a professor at
+                            prestigious design schools such as Parsons School of Design, RISD, University of the Arts,
+                            ENSAD and Paris College of Art, where she founded and chaired the Masters (MA) and Masters
+                            of Fine Arts (MFA) in Transdisciplinary New Media. She completed her Doctorate in Design at
+                            the Université Paris 1 Panthéon-Sorbonne with her dissertation Girl games: gender, design
+                            and technology in the service of women’s recruitment in ICT?, followed by a postdoc action
+                            research in peer-to-peer ICT pedagogy at the faculty-free and highly competitive computer
+                            science school 42, specializing in machine learning algorithms and AI ethics. Her current
+                            research focuses on establishing ML UX design methods, a holistic, transdisciplinary and
+                            systemic approach to create fair, accountable and transparent machine learning data,
+                            algorithms and predictive models.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer class="foo">© 2024 | PSVS - PSVS Privacy Policy</footer>
+    </div>
+    <div id="scroll-arrow" class="scroll-arrow">↓</div>
+    <script src="../script/scrollArrow.js"></script>
+    <script src="../script/calendar.js"></script>
+</body>
+
+</html>
