@@ -1,0 +1,45 @@
+
+.content{
+    min-height: 80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tampalte{
+    width: 90%;
+    margin: auto;
+    min-height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-committee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre os elementos */
+    
+}
+
+.image-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 200px; /* Define a largura mínima de 200px, mas permite flexibilidade */
+    max-width:  47%; /* Define a largura máxima de 300px */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* .image-info img{
+    width: 15%;
+    height: 15%;
+} */
+
+.image-info img {
+    width: 100%; 
+    height: auto; 
+}
